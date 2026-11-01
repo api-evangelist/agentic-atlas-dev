@@ -1,4 +1,4 @@
-# agentic-atlas-dev
+# Agentic Atlas
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,153 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentic-atlas-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentic-atlas.dev/
+Agentic Atlas provides a curated collection of field‑tested design patterns for building agentic systems. It offers read‑only, unauthenticated JSON APIs and an MCP server that let developers and AI agents browse, search, and retrieve patterns such as skills, sub‑agents, plugins, and multi‑agent workflows. The service is free, open, and aims to accelerate the creation of robust, composable AI applications across domains.
+
+**Areas:** Agentic Systems · AI Patterns · MCP · OpenAPI · Free Service
+
+## Agentic Atlas on APIs.io
+
+Everything profiled for Agentic Atlas is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentic-atlas-dev/](https://apis.io/providers/agentic-atlas-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [Agentic Atlas Agent API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-agent-api/) — The Agent API from Agentic Atlas — 5 operation(s) for agent.
+- [Agentic Atlas Cards API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-cards-api/) — The Cards API from Agentic Atlas — 1 operation(s) for cards.
+- [Agentic Atlas Compare API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-compare-api/) — The Compare API from Agentic Atlas — 1 operation(s) for compare.
+- [Agentic Atlas Decisions API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-decisions-api/) — The Decisions API from Agentic Atlas — 2 operation(s) for decisions.
+- [Agentic Atlas Glossary API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-glossary-api/) — The Glossary API from Agentic Atlas — 3 operation(s) for glossary.
+- [Agentic Atlas Links API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-links-api/) — The Links API from Agentic Atlas — 1 operation(s) for links.
+- [Agentic Atlas Nodes API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-nodes-api/) — The Nodes API from Agentic Atlas — 1 operation(s) for nodes.
+- [Agentic Atlas Orient API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-orient-api/) — The Orient API from Agentic Atlas — 1 operation(s) for orient.
+- [Agentic Atlas Resolve API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-resolve-api/) — The Resolve API from Agentic Atlas — 1 operation(s) for resolve.
+- [Agentic Atlas Search API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-search-api/) — The Search API from Agentic Atlas — 1 operation(s) for search.
+- [Agentic Atlas Tour API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-tour-api/) — The Tour API from Agentic Atlas — 1 operation(s) for tour.
+- [Agentic Atlas Tree API](https://apis.io/apis/agentic-atlas-dev/agentic-atlas-dev-tree-api/) — The Tree API from Agentic Atlas — 1 operation(s) for tree.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentic Atlas Dev Agentic Access](https://apis.io/agentic-access/agentic-atlas-dev/agentic-atlas-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agent projection payload (agent/<payload class>.json)](https://apis.io/schemas/agentic-atlas-dev/agentic-atlas-dev-agent-payload/)
+- [Decision reading](https://apis.io/schemas/agentic-atlas-dev/agentic-atlas-dev-decision-read/)
+- [Tour reading](https://apis.io/schemas/agentic-atlas-dev/agentic-atlas-dev-learning-paths-read/)
+- [Bounded relationship read](https://apis.io/schemas/agentic-atlas-dev/agentic-atlas-dev-links-read/)
+- [Bounded search read](https://apis.io/schemas/agentic-atlas-dev/agentic-atlas-dev-search-read/)
+- [Bounded term-usage read](https://apis.io/schemas/agentic-atlas-dev/agentic-atlas-dev-term-usages-read/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentic Atlas Dev Context](https://apis.io/jsonld/agentic-atlas-dev/agentic-atlas-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agentic Atlas API Rules](https://apis.io/rules/agentic-atlas-dev/agentic-atlas-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentic Atlas Dev Authentication](https://apis.io/security/agentic-atlas-dev/agentic-atlas-dev-authentication/)
+- [Agentic Atlas Dev Domain Security](https://apis.io/security/agentic-atlas-dev/agentic-atlas-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentic Atlas Dev Scopes](https://apis.io/scopes/agentic-atlas-dev/agentic-atlas-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentic Atlas Dev Plans Pricing](https://apis.io/plans/agentic-atlas-dev/agentic-atlas-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentic Atlas Dev Rate Limits](https://apis.io/rate-limits/agentic-atlas-dev/agentic-atlas-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentic-atlas.dev/)
+- [Documentation](https://agentic-atlas.dev/developers.md)
+- [Getting started](https://agentic-atlas.dev/tour)
+- [API reference](https://agentic-atlas.dev/openapi.json)
+- [Pricing](https://agentic-atlas.dev/pricing.md)
+- [Support](https://agentic-atlas.dev/contact)
+- [Privacy policy](https://agentic-atlas.dev/privacy)
+- [GitHub](https://github.com/aj604)
+- [Status](https://agentic-atlas.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 57.1** — strong · rubric 0.26.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 49.5 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 40.0 |
+
+**Agent readiness 68.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentic-atlas-dev/](https://apis.io/providers/agentic-atlas-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agentic Atlas: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentic-atlas-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
