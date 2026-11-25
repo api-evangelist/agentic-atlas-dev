@@ -66,7 +66,7 @@
 
 Agentic Atlas provides a curated collection of field‑tested design patterns for building agentic systems. It offers read‑only, unauthenticated JSON APIs and an MCP server that let developers and AI agents browse, search, and retrieve patterns such as skills, sub‑agents, plugins, and multi‑agent workflows. The service is free, open, and aims to accelerate the creation of robust, composable AI applications across domains.
 
-**Areas:** Agentic Systems · AI Patterns · MCP · OpenAPI · Free Service
+**Areas:** Agentic Systems · AI Patterns · MCP · OpenAPI
 
 ## Agentic Atlas on APIs.io
 
@@ -91,11 +91,17 @@ Everything profiled for Agentic Atlas is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentic-atlas-dev-mcp.yml](https://apis.io/servers/agentic-atlas-dev/agentic-atlas-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentic Atlas Dev Agentic Access](https://apis.io/agentic-access/agentic-atlas-dev/agentic-atlas-dev-agentic-access/)
+- [Agentic Atlas Agentic Access](https://apis.io/agentic-access/agentic-atlas-dev/agentic-atlas-dev-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -124,26 +130,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentic Atlas Dev Authentication](https://apis.io/security/agentic-atlas-dev/agentic-atlas-dev-authentication/)
-- [Agentic Atlas Dev Domain Security](https://apis.io/security/agentic-atlas-dev/agentic-atlas-dev-domain-security/)
+- [Agentic Atlas Authentication](https://apis.io/security/agentic-atlas-dev/agentic-atlas-dev-authentication/)
+- [Agentic Atlas Domain Security](https://apis.io/security/agentic-atlas-dev/agentic-atlas-dev-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentic Atlas Dev Scopes](https://apis.io/scopes/agentic-atlas-dev/agentic-atlas-dev-scopes/)
+- [Agentic Atlas Scopes](https://apis.io/scopes/agentic-atlas-dev/agentic-atlas-dev-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentic Atlas Dev Plans Pricing](https://apis.io/plans/agentic-atlas-dev/agentic-atlas-dev-plans-pricing/)
+- [Agentic Atlas Plans Pricing](https://apis.io/plans/agentic-atlas-dev/agentic-atlas-dev-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentic Atlas Dev Rate Limits](https://apis.io/rate-limits/agentic-atlas-dev/agentic-atlas-dev-rate-limits/)
+- [Agentic Atlas Rate Limits](https://apis.io/rate-limits/agentic-atlas-dev/agentic-atlas-dev-rate-limits/)
 
 ## Where to find this API
 
@@ -161,23 +167,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.1** — strong · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 49.7** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 57.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 49.5 |
-| Developer ergonomics | 49.3 |
-| Access clarity | 40.0 |
+| Discoverability | 73.3 |
+| Contract quality | 58.5 |
+| Contract governance | 35.6 |
+| Operational transparency | 47.6 |
+| Developer ergonomics | 44.6 |
+| Access clarity | 38.3 |
 
-**Agent readiness 68.2** — agent-ready (gated down from agent-native)
+**Agent readiness 58.6** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -186,20 +192,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
-| Protected Resource Metadata | verified |
+| Protected Resource Metadata | — |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentic-atlas-dev/](https://apis.io/providers/agentic-atlas-dev/).
 
